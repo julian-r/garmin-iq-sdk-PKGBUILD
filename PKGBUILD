@@ -45,8 +45,10 @@ build() {
 	cd "$pkgname-$pkgver"
         dos2unix "bin/monkeydo"
         dos2unix "bin/connectiq"
+        dos2unix "bin/monkeyc"
 
         chmod +x "bin/monkeydo"
+        chmod +x "bin/monkeyc"
         chmod +x "bin/connectiq"
 
 }
