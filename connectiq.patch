@@ -1,0 +1,9 @@
+--- src/connectiq-sdk-1.0.0/bin/connectiq	2014-12-12 11:08:30.000000000 +0100
++++ src.modif/connectiq-sdk-1.0.0/bin/connectiq	2015-02-25 09:44:00.072481364 +0100
+@@ -4,5 +4,5 @@
+ if [ "$(uname)" == "Darwin" ]; then
+     open -a "$MB_HOME"/ConnectIQ.app
+ else
+-    "$MB_HOME"/simulator
++    wine "$MB_HOME"/simulator.exe
+ fi
