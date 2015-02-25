@@ -25,8 +25,8 @@ options=()
 install=
 changelog=
 source=("http://developer.garmin.com/downloads/connect-iq/sdks/$pkgname-win-$pkgver.zip"
-        monkeydo.patch
-        connectiq.patch)
+        "https://raw.githubusercontent.com/julian-r/garmin-iq-sdk-PKGBUILD/master/monkeydo.patch"
+        "https://raw.githubusercontent.com/julian-r/garmin-iq-sdk-PKGBUILD/master/connectiq.patch")
 
 noextract=("$pkgname-win-$pkgver.zip")
 validpgpkeys=()
